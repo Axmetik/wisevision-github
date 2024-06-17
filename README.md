@@ -1,4 +1,4 @@
-# Wisdivision tech task#1
+# Wisevision tech task#1
 
 ## To get
 ```
