@@ -1,0 +1,11 @@
+.repos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 999.98px) {
+  .repos {
+    flex-direction: column;
+  }
+}

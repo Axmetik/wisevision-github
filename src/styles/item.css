@@ -1,0 +1,60 @@
+.item-repo {
+  text-decoration: none;
+  color: #3f3f3f;
+  font-family: "Montserrat", sans-serif;
+  align-items: center;
+  width: 30%;
+  flex-grow: 1;
+  background-color: #f6f8fa;
+  padding: 0em;
+  margin: 1em;
+  gap: 0 3em;
+  border: 1px solid #d2d1d1;
+  border-radius: 5px;
+}
+
+.item-repo__content {
+  padding: 1em;
+  display: grid;
+  grid-template-areas:
+    "name name type"
+    "desc desc desc"
+    "techs techs techs";
+}
+
+.repo__name {
+  grid-area: name;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-wrap: balance;
+  word-break: break-all;
+  min-height: 2em;
+}
+.repo__type {
+  grid-area: type;
+  border: 1px solid #d2d1d1;
+  border-radius: 20px;
+  padding: 0.5em;
+  width: fit-content;
+  justify-self: end;
+  align-self: flex-start;
+}
+.repo__description {
+  grid-area: desc;
+}
+.repo__techs {
+  grid-area: techs;
+}
+
+@media (max-width: 999.98px) {
+  .repo__name {
+    text-wrap: nowrap;
+    word-break: normal;
+  }
+
+  .item-repo {
+    width: 100%;
+    margin: 0 0 1em 0;
+  }
+}

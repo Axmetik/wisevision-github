@@ -1,0 +1,9 @@
+.footer {
+  background-color: #f6f8fa;
+  width: 100%;
+  text-align: center;
+}
+
+.footer div {
+  padding: 1em 0;
+}
